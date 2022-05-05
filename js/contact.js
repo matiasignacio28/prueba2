@@ -1,4 +1,4 @@
-jQuery(function ($) {
+/*jQuery(function ($) {
     'use strict';
 
     var form = $('.contact-form');
@@ -12,7 +12,29 @@ jQuery(function ($) {
         return false;
     });
 
-});
+});*/
+
+$('#formulario').submit(function(evento){
+    evento.preventDefault();
+    alert("formulario enviado");
+
+
+})
+
+
+
+  
+  document.addEventListener('DOMContentLoaded', function(){
+    let formulario = document.getElementById('formulario');
+    formulario.addEventListener('submit', function() {
+      formulario.reset();
+    });
+  });
+
+
+
+
+
 
 // Google Map Customization
 (function () {

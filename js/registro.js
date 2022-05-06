@@ -5,17 +5,20 @@ $(document).ready(()=> {
         evento.preventDefault();
         $('.error').hide();
         
+ 
         
+
 
         let contrasena =$('#contrasena').val();
         let contrasenaConfirmar = $('#contrasenaConfirmar').val();
     
+
         if (contrasena !== contrasenaConfirmar||(contrasena).length<=3){
             $('#contrasenaIncorrecta').show();
             return;
     
         }
-      
+
        
         alert("El registro se realizo correctamente");
         $('input[type="text"]').val('');
@@ -65,6 +68,7 @@ $(function(){
 
 
 })
+
 
 
 

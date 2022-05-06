@@ -340,7 +340,9 @@ ul.sub-menu {
 
 #footer {
     background: #F0F0E9;
-    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080');
+
+    
+
 }
 
 .footer-top .container {
@@ -353,7 +355,9 @@ ul.sub-menu {
 }
 
 .companyinfo h2 {
-    color: #141311;
+
+    color: #B4B1AB;
+
     font-family: abel;
     font-size: 27px;
     text-transform: uppercase;
@@ -364,7 +368,11 @@ ul.sub-menu {
 }
 
 .companyinfo p {
-    color: #1f1f1d;
+
+    color: #B3B3AD;
+
+  
+
     font-family: 'Roboto', sans-serif;
     font-size: px;
     font-weight: 300;
@@ -389,7 +397,9 @@ ul.sub-menu {
     display: block;
     height: 61px;
     margin-bottom: 10px;
-    border: 2px solid #1b1b1a;
+
+    border: 2px solid #CCCCC6;
+
     border-radius: 3px;
 }
 
@@ -479,7 +489,9 @@ ul.sub-menu {
 }
 
 .single-widget ul li a {
-    color: #161615;
+
+    color: #8C8C88;
+
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -2456,4 +2468,18 @@ textarea {
 }
 #whitefont{
     color: #fff;
+
 }
+
+.orangefont{
+    color: #FF914D;
+}
+
+.tlogo{
+    width: 150px;
+    
+}
+
+#footer {
+    background: #F0F0E9;
+    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080');

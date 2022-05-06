@@ -121,17 +121,25 @@
 			</div>
 		</div><!--/header-bottom-->
 	</header><!--/header-->
+
+	<!--banner aqui-->
+	<section>
+		<div class="container">
+			<img src="images/home/bannerlogin.jpeg" class="img-responsive" alt="" />
+		</div>
+
+	</section>
 	
 	<section id="form"><!--form-->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-1">
 					<div class="login-form"><!--login form-->
-						<h2>Ingresar</h2>
+						<h2 class="title">Ingresar</h2>
 						<form action="#">
-							<input type="text" placeholder="usuario" />
+							<input type="text" required="required" placeholder="usuario o correo" />
 							
-							<input type="password" placeholder="contraseña" />
+							<input type="password" required="required" placeholder="contraseña" />
 							<span>
 								<input type="checkbox" class="checkbox"> 
 								Seguir conectado
@@ -145,16 +153,20 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="signup-form"><!--sign up form-->
-						<h2>Registrarse</h2>
+						<h2 class="title">Registrarse</h2>
 						<form id="formRegistro" action="#">
-							<input type="text"  required="required" minlength="3" placeholder="Usuario"/>
+							<input type="text"  required="required" minlength="3" placeholder="Nombre de usuario"/>
 							<input type="email" required="required" placeholder="Correo"/>
 							<input type="password" id="contrasena" name="contrasena" required="required" placeholder="Contraseña"/>
 							<input type="password" id="contrasenaConfirmar" name="contrasenaConfirmar" required="required" placeholder="Repetir Contraseña"/>
-							<span class="error btn btn-danger alert" id="contrasenaNoIguales">Las contraseñas deben ser iguales</span>
-							<button type="submit" class="btn btn-default">Regristrar</button>
+							<span class="error btn btn-danger alert-danger pull-right" id="contrasenaIncorrecta">contraseña no valida</span>
+							<span class="error btn btn-success pull-right" id="contrasenaCorrecta">la contraseña es valida</span>
+							<span class="error btn btn-info pull-right modal-footer" id="detalle">Las contraseña debe tener mas de 3 caracteres y deben ser iguales</span>
+							<button type="submit" class="btn btn-default ">Regristrar</button>
 							
-							<p id="resultado"></p>
+							
+							
+						
 						</form>
 					</div><!--/sign up form-->
 				</div>

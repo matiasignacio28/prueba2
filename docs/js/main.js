@@ -33,7 +33,10 @@ $(document).ready(function () {
 
 
 
-/*var url = [
+
+$("#buscadordor").ready(function(){
+
+var url = [
     {
       "id": 1,
       "nombre": "Bolso Transportador Huella",
@@ -108,14 +111,14 @@ $(document).ready(function () {
   $("#buscador").fuzzyComplete(url, options);
    }
 
-);  */
+);  
 
 
 
-//buscador global
-$("#buscadordor").ready(function(){
+//buscador global con live server
+/*$("#buscadordor").ready(function(){
     
-  var url = 'productosCiberPet.json';  
+  var url = 'js/productosCiberPet.json';  
     
    
 
@@ -130,4 +133,4 @@ $("#buscadordor").ready(function(){
            $("#buscador").fuzzyComplete(data, opciones)
        }
     });
-});    
+});*/    

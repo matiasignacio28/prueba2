@@ -1,3 +1,4 @@
+
 /*price range*/
 
 if ($.fn.slider) {
@@ -30,3 +31,5 @@ $(document).ready(function () {
         });
     });
 });
+
+

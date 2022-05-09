@@ -1,4 +1,7 @@
-jQuery(function ($) {
+
+
+/*jQuery(function ($) {
+
     'use strict';
 
     var form = $('.contact-form');
@@ -12,7 +15,31 @@ jQuery(function ($) {
         return false;
     });
 
-});
+
+});*/
+
+$('#formulario').submit(function(evento){
+    evento.preventDefault();
+    alert("formulario enviado");
+
+
+})
+
+
+
+  
+  document.addEventListener('DOMContentLoaded', function(){
+    let formulario = document.getElementById('formulario');
+    formulario.addEventListener('submit', function() {
+      formulario.reset();
+    });
+  });
+
+
+
+
+
+
 
 // Google Map Customization
 (function () {
@@ -21,8 +48,10 @@ jQuery(function ($) {
 
     map = new GMaps({
         el: '#gmap',
-        lat: 43.1580159,
-        lng: -77.6030777,
+
+        lat: -33.4513,
+        lng: -70.6653,
+
         scrollwheel: false,
         zoom: 14,
         zoomControl: false,

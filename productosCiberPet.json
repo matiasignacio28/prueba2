@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "nombre": "Bolso Transportador Huella",
+      "sku": "2123124123",
+      "precio": "$18.990"
+    },
+    {
+        "id": 2,
+        "nombre": "Bolso Diseño Flores",
+        "sku": "2123124124",
+        "precio": "$19.990"
+    },
+    {
+        "id": 3,
+        "nombre": "Bolso Con Diseño Gato",
+        "sku": "2123124125",
+        "precio": "$21.990"
+    },
+    {
+        "id": 4,
+        "nombre": "Bolso Con Bolsillos",
+        "sku": "2123124126",
+        "precio": "$28.990"
+    },
+    {
+        "id": 5,
+        "nombre": "Collar Con Luz M",
+        "sku": "2123124127",
+        "precio": "$3.990"
+    },
+    {
+        "id": 6,
+        "nombre": "Collar Gato Reflectante Lila",
+        "sku": "2123124128",
+        "precio": "$2.990"
+    },
+    {
+        "id": 7,
+        "nombre": "Collar Gato Full-Color",
+        "sku": "2123124129",
+        "precio": "$6.990"
+    },
+    {
+        "id": 8,
+        "nombre": "Collar Gato Reflectante Verde",
+        "sku": "2123124130",
+        "precio": "$2.990"
+    },
+    {
+        "id": 9,
+        "nombre": "Arnés + Correa",
+        "sku": "2123124131",
+        "precio": "$7.990"
+    },
+    {
+        "id": 10,
+        "nombre": "Arnés H Marge Simpson",
+        "sku": "2123124132",
+        "precio": "$12.990"
+    },
+    {
+        "id": 11,
+        "nombre": "Rasguñador Jirafa",
+        "sku": "2123124133",
+        "precio": "$48.990"
+    }
+  ]

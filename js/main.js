@@ -31,3 +31,23 @@ $(document).ready(function () {
     });
 });
 
+//buscador global
+$("#buscadordor").ready(function(){
+    
+    
+    
+    var url = 'productosCiberPet.json';
+    
+    $.ajax({
+       url: url,
+       type:"GET",
+       datatype:"json",
+       success:function(data){
+           console.log(data);
+           var fuseOptions = {keys: ["nombre","id"]};
+           var opciones = {display: "nombre", key: "id", fuseOptions: fuseOptions};
+           $("#buscador").fuzzyComplete(data, opciones)
+       }
+    });
+});     
+

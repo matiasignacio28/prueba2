@@ -114,7 +114,7 @@ $("#buscadordor").ready(function(){
       var fuseOptions = {keys: ["nombre", "id"]};
       var options = {display:"nombre", key:"id", fuseOptions: fuseOptions};
      
-      $("#buscador").fuzzyComplete(aeropuertos, options);
+      $("#buscador").fuzzyComplete(url, options);
        }
     
 );     

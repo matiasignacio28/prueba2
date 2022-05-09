@@ -1,4 +1,7 @@
+
+
 /*jQuery(function ($) {
+
     'use strict';
 
     var form = $('.contact-form');
@@ -11,6 +14,7 @@
         });
         return false;
     });
+
 
 });*/
 
@@ -36,6 +40,7 @@ $('#formulario').submit(function(evento){
 
 
 
+
 // Google Map Customization
 (function () {
 
@@ -43,8 +48,10 @@ $('#formulario').submit(function(evento){
 
     map = new GMaps({
         el: '#gmap',
+
         lat: -33.4513,
         lng: -70.6653,
+
         scrollwheel: false,
         zoom: 14,
         zoomControl: false,

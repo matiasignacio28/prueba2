@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,7 @@
     <link href="css/animate.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="plugins/fuzzyComplete/css2/fuzzycomplete.css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -65,7 +66,7 @@
 						<div class="shop-menu clearfix pull-right">
 							<ul class="nav navbar-nav">
 								
-								<li><a href="shop.html"><i class="fa fa-star"></i>Ofertas</a></li>
+								<li><a href="ofertas.html"><i class="fa fa-star"></i>Ofertas</a></li>
 								<li ><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carro de compras</a></li>
 								<li><a href="login.html"><i class="fa fa-lock"></i> Iniciar Sesión</a></li>
 							</ul>
@@ -92,10 +93,10 @@
 								<li><a href="index.html" class="active">CiberPet</a></li>
 								<li class="dropdown"><a href="#">Tienda<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="shop.html">Productos</a></li>
-										<li><a href="shop.html">Higiene</a></li> 
-										<li><a href="shop.html">Ofertas</a></li>  
-										<li><a href="shop.html">Transporte y seguridad</a></li> 
+                                        <li><a href="productos.html">Productos</a></li>
+										<li><a href="Higiene.html">Higiene</a></li> 
+										<li><a href="ofertas.html">Ofertas</a></li>  
+										<li><a href="transporteyseguridad.html">Transporte y seguridad</a></li> 
 										
                                     </ul>
                                 </li> 
@@ -112,8 +113,11 @@
 						</div>
 					</div>
 					<div class="col-sm-3">
-						<div class="search_box pull-right">
-							<input type="text" placeholder="Buscar"/>
+						<div class="pull-right">
+							<form id="buscadordor" action="#"></form>
+							<input type="text" class="form-control" id="buscador" placeholder="Buscar..."/>
+							</form>
+							
 						</div>
 					</div>
 				</div>
@@ -147,7 +151,7 @@
 									<div class="panel-body">
 										<ul>
 											<li><a href="HigieneP.html">Higiene </a></li>
-											<li><a href="">Accesorios </a></li>
+											<li><a href="productos.html">Accesorios </a></li>
 										</ul>
 									</div>
 								</div>
@@ -164,8 +168,8 @@
 								<div id="mens" class="panel-collapse collapse">
 									<div class="panel-body">
 										<ul>
-											<li><a href="">Higiene </a></li>
-											<li><a href="">Accesorios </a></li>
+											<li><a href="Higiene.html">Higiene </a></li>
+											<li><a href="productos.html">Accesorios </a></li>
 										</ul>
 									</div>
 								</div>
@@ -191,13 +195,13 @@
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Transporte y seguridad</a></h4>
+									<h4 class="panel-title"><a href="transporteyseguridad.html">Transporte y seguridad</a></h4>
 								</div>
 							</div>
 							
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4 class="panel-title"><a href="#">Ofertas</a></h4>
+									<h4 class="panel-title"><a href="ofertas.html">Ofertas</a></h4>
 								</div>
 							</div>
 							
@@ -492,10 +496,10 @@
 						<div class="single-widget">
 							<h2>Menu</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">CiberPet</a></li>
-								<li><a href="#">Tienda </a></li>
-								<li><a href="#">Alimentos </a></li>
-								<li><a href="#">Contacto </a></li>
+								<li><a href="index.html">CiberPet</a></li>
+								<li><a href="index.html">Tienda </a></li>
+								<li><a href="AlimentoGatos.html">Alimentos </a></li>
+								<li><a href="contact-us.html">Contacto </a></li>
 								
 							</ul>
 						</div>
@@ -504,11 +508,11 @@
 						<div class="single-widget">
 							<h2>Marcas</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">All Green</a></li>
-								<li><a href="#">BEEPS</a></li>
-								<li><a href="#">Cat it</a></li>
-								<li><a href="#">Chao Pipí</a></li>
-								<li><a href="#">Drag Pharma</a></li>
+								<li><a href="#">Fit Fomula</a></li>
+								<li><a href="#">Royal Canin</a></li>
+								<li><a href="#">Optimun</a></li>
+								<li><a href="#">Purina Pro Plan </a></li>
+								<li><a href="#">Tase of the Wild</a></li>
 							</ul>
 						</div>
 					</div>
@@ -516,11 +520,11 @@
 						<div class="single-widget">
 							<h2>Categorias</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Perros</a></li>
-								<li><a href="#">Gatos </a></li>
-								<li><a href="#">Alimentos</a></li>
-								<li><a href="#">Transporte y Seguridad</a></li>
-								<li><a href="#">Ofertas</a></li>
+								<li><a href="AlimentoPerros.html">Alimento Perros</a></li>
+								<li><a href="AlimentoGatos.html">Alimento Gatos </a></li>
+								
+								<li><a href="transporteyseguridad.html">Transporte y Seguridad</a></li>
+								<li><a href="ofertas.html">Ofertas</a></li>
 							</ul>
 						</div>
 					</div>
@@ -570,5 +574,7 @@
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
+	<script src="plugins/fuzzyComplete/js2/fuse.min.js"></script>  
+	<script src="plugins/fuzzyComplete/js2/fuzzycomplete.js"></script>
 </body>
 </html>

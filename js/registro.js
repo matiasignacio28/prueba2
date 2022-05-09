@@ -69,7 +69,26 @@ $(function(){
 
 })
 
-
+//buscador comunas consumir api
+$(document).ready(function(){
+    //1er ejemplo
+ 
+    
+    //3er ejemplo
+    var url = 'https://apis.digital.gob.cl/dpa/comunas';
+    
+    $.ajax({
+       url: url,
+       type:"GET",
+       datatype:"json",
+       success:function(data){
+           console.log(data);
+           var fuseOptions = {keys: ["nombre","codigo"]};
+           var opciones = {display: "nombre", key: "codigo", fuseOptions: fuseOptions};
+           $("#comunas").fuzzyComplete(data, opciones)
+       }
+    });
+});     
 
 
 

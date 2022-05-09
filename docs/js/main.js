@@ -115,7 +115,7 @@ $(document).ready(function () {
 //buscador global
 $("#buscadordor").ready(function(){
     
-  var url = 'productosCiberpet.json';  
+  var url = 'productosCiberPet.json';  
     
    
 
